@@ -1,0 +1,7 @@
+membuat migration table database baru : php artisan make: migration create_categories_table
+membuat model baru : php artisan make:model categories
+
+membuat migration dan model secara bersamaan : php artisan make:model categories -m
+untuk mengupload perubahan yang dilakukan : php artisan migrate
+
+membuat controller : php artisan make:controller CategoryController
